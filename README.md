@@ -59,6 +59,8 @@ Admin
 Supervisor - 
 Restaurant - 60 AED, flag: verified
 Screen - 
+Location
+
 
 users
 token - status: checkin, requested, on the way, cancelled, checkout
@@ -69,7 +71,19 @@ first 3 hours: 60 AED
 
 
 ## Tables
-users
+users - location_id
 tokens
+locations
 
 
+## Steps to production
+Laravel initial setup - Done
+Auth Setup - 
+Migrations
+Models
+Controllers
+Routes
+Views
+Integration
+Testing
+Restful API
